@@ -1,0 +1,86 @@
+/* Selector Universal
+Reiniciamos los valores del navegador  */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Aqui ponemos la configuracion 
+  del color de fondo y letra*/
+html {
+  background-color: lightgray;
+}
+body {
+  width: 800px;
+  height: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* // <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900 */
+.montserrat-variation {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* HEADER  */
+.inicio {
+  background-color: lightblue;
+  height: 50px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+/* NAV  */
+.navegacion {
+  background-color: lightgreen;
+  height: 200px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+/* MAIN  */
+.noticias {
+  background-color: lightyellow;
+  height: 300px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+section {
+  background-color: white;
+  border: 1px solid black;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.noticias-deportes,
+.noticias-entretenimiento {
+  margin-bottom: 10px;
+}
+
+.barra-lateral {
+  background-color: lightpink;
+  width: 200px;
+  padding: 10px;
+  margin-top: 10px;
+  height: 200px;
+}
+
+h3.bl-title {
+  margin-bottom: 12px;
+}
+
+/* FOOTER  */
+.pie-de-pagina {
+  background-color: lightseagreen;
+  height: 50px;
+  padding: 10px;
+  margin-top: 10px;
+}
