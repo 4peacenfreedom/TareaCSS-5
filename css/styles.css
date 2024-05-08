@@ -65,6 +65,12 @@ section {
   margin-bottom: 10px;
 }
 
+.noticias-deportes {
+  background-color: pink;
+}
+.noticias-entretenimiento {
+  background-color: orange;
+}
 .barra-lateral {
   background-color: lightpink;
   width: 200px;
